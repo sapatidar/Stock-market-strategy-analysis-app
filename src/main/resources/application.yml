@@ -1,0 +1,11 @@
+server:
+ port: 9090
+spring:
+ data:
+  mongodb:
+   username: spatidar
+   password: spatidar
+   host: localhost
+   port: 27017
+   database: stockdb
+   authentication-database: admin

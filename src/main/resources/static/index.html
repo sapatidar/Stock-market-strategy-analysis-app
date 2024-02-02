@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+        }
+
+        form {
+            margin: auto;
+            width: 62%;
+
+
+
+        }
+
+        .pj {
+            display: flex;
+            align-items: center;
+            border: 2px springgreen;
+        }
+
+        .full {
+
+            display: flex;
+            align-items: center;
+            align-content: center;
+            color: brown;
+        }
+
+        .centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid brown;
+    flex-grow: 1;
+}
+    </style>
+</head>
+
+
+<body>
+
+<form id="Projectform">
+
+
+    <h1>Project DBA</h1>
+
+    <h3>Select The companies you want to see Analysis of</h3>
+
+    IBM :<input type="checkbox" name="c1" id="ibm">
+    Apple :<input type="checkbox" name="c2" id="aapl">
+    Amazon:<input type="checkbox" name="c3" id="amzn">
+    Tesla :<input type="checkbox" name="c4" id="tsla">
+    Microsoft :<input type="checkbox" name="c5" id="msft">
+    Uber :<input type="checkbox" name="c6" id="uber">
+    Door Dash :<input type="checkbox" name="c7" id="dash">
+    Nvidia :<input type="checkbox" name="c8" id="nvda">
+    Walmart :<input type="checkbox" name="c9" id="wmt">
+    Nike:<input type="checkbox" name="c10" id="nke">
+    Netflix :<input type="checkbox" name="c11" id="nflx">
+    BlackStone:<input type="checkbox" name="c12" id="bx">
+    At&T :<input type="checkbox" name="c13" id="t">
+    AMD:<input type="checkbox" name="c14" id="amd">
+    Starbucks :<input type="checkbox" name="c15" id="sbux">
+    Walt Disney Co:<input type="checkbox" name="c16" id="dis">
+    Ford motors :<input type="checkbox" name="c17" id="f">
+    Meta :<input type="checkbox" name="c18" id="meta">
+    General Electric :<input type="checkbox" name="c19" id="ge">
+    lookhead martin :<input type="checkbox" name="c20" id="lmt">
+    <br><br>
+
+
+
+
+
+
+
+
+    RSI<input type="checkbox" name="rsi" id="rsi">
+
+    Market Trend<input type="checkbox" name="mt" id="mt">
+    Accuracy<input type="checkbox" name="ac" id="ac">
+    <br><br>
+
+
+    <input type="submit" value="submit">
+
+    <div id="rsi-container" class="centered-container">
+        <h1>RSI ANALYSIS</h1>
+    </div>
+
+    <div id="ac-container" class="centered-container">
+        <h1>ACCURACY ANALYSIS</h1>
+    </div>
+
+    <div id="mt-container" class="centered-container">
+        <h1>MARKET TREND ANALYSIS</h1>
+    </div>
+
+
+
+</form>
+
+
+
+<script src="project.js"></script>
+</body>
+
+</html>
